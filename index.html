@@ -5,8 +5,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <svg id="game-board" width="80%" viewBox="0 0 300 300">
-      <!-- Create all the shapes for your game board here! -->
+    <svg id="game-board" width="100%" viewBox="0 0 500 500">
+<!--Rectangles-->
+<rect x="20" y="20" width="400" height="400" rx="15" ry="15" fill="pink"/>
+
+<g>
+  <!--Left Collumn-->
+<rect id="L1" x="50" y="50" width="100" height="100" rx="15" ry="15" onClick="SP1()"/>
+<rect id="L2" x="50" y="170" width="100" height="100" rx="15" ry="15"/>
+<rect id="L3" x="50" y="290" width="100" height="100" rx="15" ry="15"/>
+  <!--Middle Collumn-->
+<rect id="M1" x="170" y="50" width="100" height="100" rx="15" ry="15"/>
+<rect id="M2" x="170" y="170" width="100" height="100" rx="15" ry="15"/>
+<rect id="M3" x="170" y="290" width="100" height="100" rx="15" ry="15"/>
+  <!--Right Collumn-->
+<rect id="R1" x="290" y="50" width="100" height="100" rx="15" ry="15"/>
+<rect id="R2" x="290" y="170" width="100" height="100" rx="15" ry="15"/>
+<rect id="R3" x="290" y="290" width="100" height="100" rx="15" ry="15"/>
+<g>
 
     </svg>
 
