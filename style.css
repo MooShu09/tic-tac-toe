@@ -1,1 +1,6 @@
 /* Write all your CSS style code in this file! */
+#RB {
+  padding: 10px 15px;
+  background: pink;
+  color: black;
+}
